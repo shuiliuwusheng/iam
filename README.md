@@ -1,12 +1,16 @@
 # IAM - 身份识别与访问管理系统
 
-IAM = Identity and Access Management
+IAM = **I**dentity and **A**ccess **M**anagement
 
-IAM 是一个基于 Go 语言开发的身份识别与访问管理系统，用于对资源访问进行授权。**最新稳定版本为：v1.1.0，建议基于稳定版安装测试**。
+IAM 是一个基于 Go 语言开发的身份识别与访问管理系统，用于对资源访问进行授权。**最新稳定版本为：v1.6.2，建议基于稳定版安装测试**。
+
+这里需要注意：
+- 如果你是极客时间《Go 语言项目开发实战》专栏的读者，请使用 v1.1.0 版本（tag）
+- 如果你是图书《从零构建企业级 Go 项目》的读者，请使用 v1.6.2 版本（tag）
 
 IAM 同时也具有以下能力：
 
-1. 配合极客时间专栏 **《[Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601)》**，讲解如何用 Go 做企业级应用的开发，是该项目的理论课程，包含了项目各个知识点和构建思路的讲解，也会包含我的一线研发经验和建议。
+1. 配合极客时间专栏 **《[Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601?tab=intro)》**，讲解如何用 Go 做企业级应用的开发，是该项目的理论课程，包含了项目各个知识点和构建思路的讲解，也会包含我的一线研发经验和建议。
 
 2. 作为一个开发脚手架，供开发者克隆后二次开发，快速构建自己的应用。
 
@@ -39,6 +43,8 @@ IAM 项目会长期维护、定期更新，**欢迎兄弟们 Star & Contribute**
 ### 快速部署
 
 快速部署请参考：[IAM 部署指南](docs/guide/zh-CN/installation/README.md#快速部署)
+
+> IAM 项目还提供了更详细的部署文档，请参考：[手把手教你部署IAM系统](docs/guide/zh-CN/installation/installation-procedures.md)
 
 ### 构建
 
